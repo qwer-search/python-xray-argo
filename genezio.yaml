@@ -2,9 +2,9 @@ backend:
     functions:
         - entry: app.py
           handler: app
-          name: flask
+          name: function-faas-python
           path: .
-          type: httpServer
+          type: aws
     language:
         name: python
         packageManager: pip
